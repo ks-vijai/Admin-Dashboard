@@ -1,0 +1,58 @@
+.menubar {
+  background-color: #111827;
+  height: 100%;
+  width: 310px;
+}
+
+.logo {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  padding: 30px 0 0 30px;
+}
+
+.logo-image {
+  margin-right: 15px;
+  width: 60px;
+}
+
+.menubar-items {
+  margin-top: 40px;
+}
+
+.menubar-lists {
+  list-style: none;
+  padding: 15px 0;
+  transition: 0.3s ease;
+}
+
+.menubar-lists:hover {
+  background-color: #253047;
+  cursor: pointer;
+}
+
+.menubar-lists:nth-child(1) {
+  border-left: 4px solid #fff;
+}
+
+.menubar-lists i {
+  color: rgb(134, 141, 151);
+  font-size: 25px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 20px 0 40px;
+  width: 30px;
+  text-align: center;
+}
+
+.menubar-lists a {
+  color: rgb(134, 141, 151);
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.menubar-lists:hover a,
+.menubar-lists:hover i {
+  color: #f3f4f6;
+}

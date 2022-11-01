@@ -70,3 +70,20 @@
   object-fit: cover;
   width: 40px;
 }
+
+/* Media queries */
+@media all and (max-width: 769px) {
+  .user-interface {
+    width: 100%;
+    margin-left: 0px;
+    display: inline-block;
+  }
+
+  .search-bar {
+    width: 93%;
+  }
+
+  .menu-button {
+    display: initial;
+  }
+}

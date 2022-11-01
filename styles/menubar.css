@@ -59,3 +59,11 @@
 .menubar-lists:hover i {
   color: #f3f4f6;
 }
+
+/* Media queries */
+@media all and (max-width: 769px) {
+  .menubar {
+    width: 270px;
+    left: -270px;
+  }
+}

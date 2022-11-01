@@ -72,3 +72,15 @@
   font-weight: 600;
   text-decoration: none;
 }
+
+/* Media Queries */
+@media (max-width: 769px) {
+  .employee-data {
+    padding: 0;
+    width: 93%;
+  }
+
+  .employee-table {
+    width: 100%;
+  }
+}

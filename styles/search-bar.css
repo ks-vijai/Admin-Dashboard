@@ -1,0 +1,52 @@
+.user-interface {
+  width: calc(100% - 310px);
+}
+
+.search-bar {
+  align-items: center;
+  border-bottom: 3px solid #594ef7;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.search-section {
+  align-items: center;
+  border: 1px solid #d7dbe6;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-input {
+  border: none;
+  font-size: 14px;
+  margin: none;
+  padding: 10px 14px;
+}
+
+.search-icon {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.profile-section {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bell-icon {
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 40px;
+  object-fit: cover;
+  width: 40px;
+}

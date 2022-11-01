@@ -6,10 +6,13 @@
 
 .search-bar {
   align-items: center;
+  background-color: white;
   border-bottom: 3px solid #594ef7;
   display: flex;
   justify-content: space-between;
   padding: 15px 30px;
+  position: fixed;
+  width: calc(100% - 370px);
 }
 
 .search-section {

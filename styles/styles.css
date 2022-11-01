@@ -1,6 +1,8 @@
 @import "menubar.css";
+@import "dashboard.css";
 
 body {
   background-color: #e5e7eb;
+  display: flex;
   width: 100%;
 }

@@ -4,5 +4,6 @@
 body {
   background-color: #e5e7eb;
   display: flex;
+  margin: 0;
   width: 100%;
 }

@@ -60,6 +60,7 @@
   font-size: 18px;
 }
 
+/* Media quesries for tablets */
 @media (max-width: 769px) {
   .box-values {
     justify-content: flex-start;

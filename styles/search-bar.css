@@ -71,12 +71,13 @@
   width: 40px;
 }
 
-/* Media queries */
+/* Media queries for tablets*/
 @media all and (max-width: 769px) {
   .user-interface {
-    width: 100%;
-    margin-left: 0px;
     display: inline-block;
+    margin-left: 0px;
+    transition: 0.3s ease;
+    width: 100%;
   }
 
   .search-bar {
@@ -85,5 +86,11 @@
 
   .menu-button {
     display: initial;
+  }
+
+  .menubar.active ~ .user-interface {
+    margin-left: 270px;
+    transition: 0.3s ease;
+    width: calc(100% - 270px);
   }
 }

@@ -73,7 +73,7 @@
   text-decoration: none;
 }
 
-/* Media Queries */
+/* Media Queries for tablets*/
 @media (max-width: 769px) {
   .employee-data {
     padding: 0;

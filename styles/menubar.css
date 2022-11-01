@@ -60,10 +60,15 @@
   color: #f3f4f6;
 }
 
-/* Media queries */
+/* Media queries for tablets*/
 @media all and (max-width: 769px) {
   .menubar {
-    width: 270px;
     left: -270px;
+    transition: 0.3s ease;
+    width: 270px;
+  }
+
+  .menubar.active {
+    left: 0px;
   }
 }

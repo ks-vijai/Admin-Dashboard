@@ -1,4 +1,6 @@
 .user-interface {
+  margin-left: 310px;
+  position: relative;
   width: calc(100% - 310px);
 }
 

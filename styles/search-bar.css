@@ -94,3 +94,14 @@
     width: calc(100% - 270px);
   }
 }
+
+/* Media queries for mobile devices */
+@media (max-width: 477px) {
+  .search-bar {
+    padding: 10px;
+  }
+
+  .search-input {
+    width: 150px;
+  }
+}

@@ -70,3 +70,19 @@
     margin: 10px 20px 10px 0;
   }
 }
+
+/* Media queries for mobile devices */
+@media (max-width: 477px) {
+  .main-headings {
+    padding: 30px 15px 0 15px;
+  }
+
+  .box-values {
+    padding: 15px 15px 0 15px;
+  }
+
+  .new-users {
+    margin: 8px 0;
+    width: 100%;
+  }
+}

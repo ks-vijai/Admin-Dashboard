@@ -15,12 +15,27 @@
   width: calc(100% - 370px);
 }
 
+.menubar-icon {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu-button {
+  color: #2b2b2b;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
 .search-section {
   align-items: center;
   border: 1px solid #d7dbe6;
   border-radius: 4px;
   display: flex;
   justify-content: flex-start;
+  padding-left: 15px;
 }
 
 .search-input {

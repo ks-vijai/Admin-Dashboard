@@ -1,5 +1,6 @@
 @import "menubar.css";
 @import "dashboard.css";
+@import "skeleton-loading.css";
 
 body {
   background-color: #e5e7eb;
